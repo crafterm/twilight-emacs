@@ -53,6 +53,11 @@
 	  (ido-only-match ((t (:foreground "#8F9D6A"))))
 	  (mumamo-background-chunk-submode ((t (:background "#222222")))) 
 
+	  (linum ((t (:foreground "#757575"))))
+	  (linum ((t (:background "#DCDCDC"))))
+	  (hl-line ((t (:background "#212121"))))  
+	  (yas/field-highlight-face ((t (:background "#27292A"))))
+
 	  (font-lock-string-face ((t (:foreground "#8F9D6A"))))
 	  (font-lock-type-face ((t (:foreground "#9B703F"))))
 	  (font-lock-variable-name-face ((t (:foreground "#7587A6"))))
