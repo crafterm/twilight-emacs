@@ -47,7 +47,7 @@
 	  ;; Enhanced-Ruby-Mode
 	  (ruby-string-delimiter-face  ((t (:foreground "#5A6340"))))
 	  (ruby-regexp-delimiter-face ((t (:foreground "orange"))))
-	  (ruby-heredoc-delimiter-face ((t (:foreground "#7587A6"))))
+	  (ruby-heredoc-delimiter-face ((t (:foreground "#9B859D"))))
 	  (ruby-op-face ((t (:foreground "#CDA869"))))
 
 	  (font-lock-regexp-grouping-backslash ((t (:foreground "#E9C062"))))
