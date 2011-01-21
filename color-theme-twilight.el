@@ -53,7 +53,7 @@
 	  (ido-only-match ((t (:foreground "#8F9D6A"))))
 	  (mumamo-background-chunk-submode ((t (:background "#222222")))) 
 
-	  (linum ((t (:background "#DCDCDC" :foreground "#757575"))))
+	  (linum ((t (:background "#141314" :foreground "#2D2B2E"))))
 	  (hl-line ((t (:background "#212121"))))  
 	  (yas/field-highlight-face ((t (:background "#27292A"))))
 
