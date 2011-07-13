@@ -3,6 +3,7 @@
 ;; Copyright (C) 2008 Marcus Crafter <crafterm@redartisan.com>
 
 ;; Author: Marcus Crafter
+;; Adapted-By: Yesudeep Mangalapilly
 ;; Keywords: textmate twilight color theme
 ;; URL: https://github.com/crafterm/twilight-emacs
 ;; Version: 0.2
