@@ -1,4 +1,4 @@
-;; color-theme-twilight.el --- Twilight Color Theme for Emacs.
+;;; color-theme-twilight.el --- Twilight Color Theme for Emacs.
 
 ;; Copyright (C) 2008 Marcus Crafter <crafterm@redartisan.com>
 
