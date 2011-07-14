@@ -1,4 +1,43 @@
-;; Twilight Colour Theme for Emacs.
+;;; color-theme-twilight.el --- Twilight Color Theme for Emacs.
+
+;; Copyright (C) 2008 Marcus Crafter <crafterm@redartisan.com>
+
+;; Author: Marcus Crafter
+;; Adapted-By: Yesudeep Mangalapilly
+;; Keywords: textmate twilight color theme
+;; URL: https://github.com/crafterm/twilight-emacs
+;; Version: 0.2
+;; Package-Requires: ((color-theme "6.6.1"))
+
+;; This file is NOT a part of GNU Emacs.
+
+;;; License:
+
+;; MIT License
+;; -----------
+;; Permission is hereby granted, free of charge, to any person
+;; obtaining a copy of this software and associated documentation
+;; files (the "Software"), to deal in the Software without
+;; restriction, including without limitation the rights to use,
+;; copy, modify, merge, publish, distribute, sublicense, and/or
+;; sell copies of the Software, and to permit persons to whom the
+;; Software is furnished to do so, subject to the following
+;; conditions:
+;;
+;; The above copyright notice and this permission notice shall
+;; be included in all copies or substantial portions of the
+;; Software.
+;;
+;; THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+;; EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+;; OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+;; NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+;; HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+;; WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+;; FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+;; OTHER DEALINGS IN THE SOFTWARE.
+
+;;; Usage:
 ;;
 ;; Defines a colour scheme resembling that of the original TextMate Twilight colour theme.
 ;; To use add the following to your .emacs file (requires the color-theme package):
@@ -6,22 +45,25 @@
 ;; (require 'color-theme)
 ;; (color-theme-initialize)
 ;; (load-file "~/.emacs.d/twilight-emacs/color-theme-twilight.el")
-;;
-;; And then (color-theme-twilight) to activate it.
-;;
-;; Several areas still require improvement such as recognition of code that ruby-mode doesn't
+
+
+;; TODO: Several areas still require improvement such as recognition of code that ruby-mode doesn't
 ;; yet pick up (eg. parent classes), Rails/Merb keywords, or non Ruby code related areas
 ;; (eg. dired, HTML, etc). Please feel free to customize further and send in any improvements,
 ;; patches most welcome.
 ;;
-;; MIT License Copyright (c) 2008 Marcus Crafter <crafterm@redartisan.com>
 ;; Credits due to the excellent TextMate Twilight theme
 ;;
 ;; Thanks to Travis Jeffery for ido-mode and fixes to the minibuffer-prompt to fit in with the rest of the theme
-;;
+
+;;; Code:
+
+(eval-when-compile
+  (require 'color-theme))
+
 
 (defun color-theme-twilight ()
-  "Color theme by Marcus Crafter, based off the TextMate Twilight theme, created 2008-04-18"
+  "TextMate Twilight theme for GNU Emacs."
   (interactive)
   (color-theme-install
 	'(color-theme-twilight
@@ -77,3 +119,10 @@
 	  (toolbar ((t (nil))))
 	  (underline ((nil (:underline nil))))
 	  (zmacs-region ((t (:background "snow" :foreground "blue")))))))
+
+
+(color-theme-twilight)
+
+(provide 'color-theme-twilight)
+
+;;; color-theme-twilight.el ends here
