@@ -108,6 +108,9 @@
 
           (magit-item-highlight ((t (:background "#191930"))))
           (magit-diff-add ((((class color) (background dark)) (:foreground "green"))))
+          (org-hide ((((background dark)) (:foreground "#141414"))))
+          (outline-4 ((t (:foreground "#8F8A80"))))
+
 	  (font-lock-string-face ((t (:foreground "#8F9D6A"))))
 	  (font-lock-type-face ((t (:foreground "#9B703F"))))
 	  (font-lock-variable-name-face ((t (:foreground "#7587A6"))))
