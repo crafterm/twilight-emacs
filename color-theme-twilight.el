@@ -104,6 +104,7 @@
 	  (linum ((t (:background "#141314" :foreground "#2D2B2E"))))
 	  (hl-line ((t (:background "#212121"))))  
           (region ((t (:background "#373446"))))
+          (mode-line-inactive ((t (:background "grey10" :foreground "grey40" :box (:line-width -1 :color "grey20")))))
 	  (yas/field-highlight-face ((t (:background "#27292A"))))
 
           (magit-item-highlight ((t (:background "#191930"))))
