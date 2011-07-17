@@ -103,6 +103,7 @@
 
 	  (linum ((t (:background "#141314" :foreground "#2D2B2E"))))
 	  (hl-line ((t (:background "#212121"))))  
+          (region ((t (:background "#373446"))))
 	  (yas/field-highlight-face ((t (:background "#27292A"))))
 
 	  (font-lock-string-face ((t (:foreground "#8F9D6A"))))
