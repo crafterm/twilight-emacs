@@ -106,6 +106,8 @@
           (region ((t (:background "#373446"))))
 	  (yas/field-highlight-face ((t (:background "#27292A"))))
 
+          (magit-item-highlight ((t (:background "#191930"))))
+          (magit-diff-add ((((class color) (background dark)) (:foreground "green"))))
 	  (font-lock-string-face ((t (:foreground "#8F9D6A"))))
 	  (font-lock-type-face ((t (:foreground "#9B703F"))))
 	  (font-lock-variable-name-face ((t (:foreground "#7587A6"))))
