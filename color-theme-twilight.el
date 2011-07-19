@@ -104,8 +104,9 @@
 	  (linum ((t (:background "#141314" :foreground "#2D2B2E"))))
 	  (hl-line ((t (:background "#212121"))))  
           (region ((t (:background "#373446"))))
-          (mode-line-inactive ((t (:background "grey10" :foreground "grey40" :box (:line-width -1 :color "grey20")))))
 	  (yas/field-highlight-face ((t (:background "#27292A"))))
+	  (mode-line ((t (:background "grey75" :foreground "black" :height 0.8))))
+          (mode-line-inactive ((t (:background "grey10" :foreground "grey40" :box (:line-width -1 :color "grey20") :height 0.8))))
 
           (magit-item-highlight ((t (:background "#191930"))))
           (magit-diff-add ((((class color) (background dark)) (:foreground "green"))))
@@ -118,7 +119,6 @@
 	  (font-lock-warning-face ((t (:background "#EE799F" :foreground "red"))))
 	  (gui-element ((t (:background "#D4D0C8" :foreground "black"))))
 	  (region ((t (:background "#27292A"))))
-	  (mode-line ((t (:background "grey75" :foreground "black"))))
 	  (highlight ((t (:background "#111111"))))
 	  (highline-face ((t (:background "SeaGreen"))))
 	  (left-margin ((t (nil))))
