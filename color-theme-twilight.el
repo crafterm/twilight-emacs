@@ -130,9 +130,6 @@
 	  (underline ((nil (:underline nil))))
 	  (zmacs-region ((t (:background "snow" :foreground "blue")))))))
 
-
-(color-theme-twilight)
-
 (provide 'color-theme-twilight)
 
 ;;; color-theme-twilight.el ends here
