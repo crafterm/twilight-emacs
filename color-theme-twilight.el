@@ -81,7 +81,7 @@
       (font-lock-comment-face ((t (:foreground "#5F5A60"))))
       (font-lock-constant-face ((t (:foreground "#CF6A4C"))))
       (font-lock-doc-string-face ((t (:foreground "DarkOrange"))))
-      (font-lock-function-name-face ((t (:foreground "#9B703F"))))
+      (font-lock-function-name-face ((t (:foreground "#F9F0AD"))))
       (font-lock-keyword-face ((t (:foreground "#CDA869"))))
       (font-lock-preprocessor-face ((t (:foreground "Aquamarine"))))
       (font-lock-reference-face ((t (:foreground "SlateBlue"))))
