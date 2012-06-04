@@ -113,8 +113,9 @@
           (org-hide ((((background dark)) (:foreground "#141414"))))
           (outline-4 ((t (:foreground "#8F8A80"))))
 
-          (diff-removed ((((class color) (background dark)) (:foreground "orange"))))
-          (diff-added ((((class color) (background dark)) (:foreground "green"))))
+          (diff-removed ((t (:background "#54120B" :foreground "#F9F9F9"))))
+          (diff-changed ((t (:background "#5C5218" :foreground "#F9F9F9"))))
+          (diff-added ((t (:background "#304B2F" :foreground "#F9F9F9"))))
 
       (font-lock-string-face ((t (:foreground "#8F9D6A"))))
       (font-lock-type-face ((t (:foreground "#9B703F"))))
