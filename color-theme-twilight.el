@@ -109,7 +109,10 @@
           (mode-line-inactive ((t (:background "grey10" :foreground "grey40" :box (:line-width -1 :color "grey20") :height 0.8))))
 
           (magit-item-highlight ((t (:background "#191930"))))
-          (magit-diff-add ((((class color) (background dark)) (:foreground "green"))))
+          (magit-header ((t (:background "#122E3F" :foreground "#F9F9F9"))))
+          (magit-diff-add ((t (:background "#304B2F" :foreground "#F9F9F9"))))
+          (magit-diff-del ((t (:background "#54120B" :foreground "#F9F9F9"))))
+
           (org-hide ((((background dark)) (:foreground "#141414"))))
           (outline-4 ((t (:foreground "#8F8A80"))))
 
