@@ -121,6 +121,7 @@
           (outline-4 ((t (:foreground "#8F8A80"))))
 
           (diff-header ((t (:background "#122E3F" :foreground "#F9F9F9"))))
+          (diff-file-header ((t (:foreground "#92AEBF" :inherit diff-header))))
           (diff-removed ((t (:background "#54120B" :foreground "#F9F9F9"))))
           (diff-changed ((t (:background "#5C5218" :foreground "#F9F9F9"))))
           (diff-added ((t (:background "#304B2F" :foreground "#F9F9F9"))))
